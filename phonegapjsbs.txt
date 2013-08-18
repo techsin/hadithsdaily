@@ -1,0 +1,4 @@
+config.xml can be in either xml/config.xml but is preferred in www -root
+phongap.js cordova.js cordova.2.0.js all are ok prefered to use phonegap.js
+
+from 3.0 apis need to be added using plugin and permission too.
