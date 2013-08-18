@@ -1,0 +1,80 @@
+html {
+  font-size: 30%; /* resets the page font size */
+}
+html, body {width:100%; height: 100%; margin:0;padding: 0;}
+body{
+	background-color: rgb(37, 37, 37);
+}
+
+.mainbox{
+	margin:0rem;
+	padding:1rem;
+	min-height: 600rem;
+	border-radius:3rem;
+	text-indent: 3rem;
+}
+.menu {
+	height:10rem;
+	background-color: rgb(146, 29, 0);
+	margin-top: .5rem;
+	border-radius: 1rem;
+	position: relative;
+}
+.menu span {
+	color: white;
+	font-size: 4rem;
+	font-family: sans-serif;
+	vertical-align: middle;
+}
+.menu:before{
+	content: '';
+	height: 100%;
+	vertical-align: middle;
+	display: inline-block;
+}
+.icon {
+	height: 8rem;
+	width: 9rem;
+	background-color: rgb(209, 174, 34);
+	border-radius:1rem;
+	position: absolute;
+	/*border: .1rem rgb(255, 255, 255) solid;*/
+	right:2rem; top:1rem;
+}
+.content {
+	margin-top: 2rem;
+	background-color: rgb(19, 19, 19);
+	border-radius: 1rem;
+	padding: 2rem;
+}
+.h{
+	
+	background-color: rgb(250, 250, 250);
+	padding: 2rem;
+	border-radius:1rem;
+	margin: 2.5rem 0;
+	font: 2.2rem/120% Helvetica, sans-serif;
+	color: rgb(97, 97, 97);
+	letter-spacing: .065rem;
+	word-spacing:-.01em;
+}
+.h:first-of-type{
+	margin-top: 1rem;
+}
+
+
+.pulse {
+  -webkit-animation: pulse 400ms;
+}
+@-webkit-keyframes pulse {
+  0% { -webkit-transform: scale3d(0.9,0,9,1); }
+  20% { -webkit-transform: scale3d(1.1,1.1,1); }
+  40% { -webkit-transform: scale3d(0.95,0.95,1); }
+  70% { -webkit-transform: scale3d(1.05,1.05,1); }
+  100% { -webkit-transform: scale3d(1,1,1); }
+}
+#btn{
+	height: 9rem;
+	width: 9rem;
+	background-color: blue;
+}
